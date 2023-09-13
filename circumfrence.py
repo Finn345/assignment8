@@ -7,6 +7,6 @@ def circumfrence():
     if radius:
         circum = round(2 * pi * radius, 3)
         print("The circumfrence of the circle is " + str(circum) + " units.")
-        break
+        return
 
 circumfrence()

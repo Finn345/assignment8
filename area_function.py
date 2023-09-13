@@ -6,5 +6,6 @@ def area_calc():
     if length and width:
         area = round(length*width, 3)
         print("Your house is " + str(area) + " square feet")
-    break
+        return
+    
 area_calc()
